@@ -1,0 +1,48 @@
+body{
+  background-color: #DDDDDD;
+  font-family: 'Rubik', sans-serif;
+  
+  }
+  
+  .top-header{
+    height: 70px;
+    background-color:white;
+    font-family: 'Acme', sans-serif;
+  }
+
+  .top-header h1{
+    margin-left: 10px;
+    color: #25AEDD;
+  }
+
+  .bottom-header{
+    height: 70px;
+    background-color: #25AEDD;
+  }
+  
+  .box-icon{
+    height: 10vw;
+    width: calc(20% - 30px);
+    background-color:white;
+    margin: 30px 15px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .fas-blue{
+    color: blue;
+  }
+  .fas-green{
+    color: green;
+  }
+  .fas-orange{
+    color: orange;
+  }
+  
+  /* .container-content-box{
+    background-color: yellow;
+  } */
+  
+  .container-content-box .fas{
+    font-size: 30px;
+  }

@@ -134,7 +134,7 @@ function sceltaColore(array){
 			<div class="box-icon d-flex justify-content-center align-items-sm-center">
 					<div class="container-content-box d-flex flex-column align-items-center">
 							<i class="${family} ${prefix}${name} fas-blue "></i>
-							<h5>${name.toUpperCase()}</h5>
+							<h6>${name.toUpperCase()}</h6>
 					</div>  
 			</div>
 		
@@ -150,7 +150,7 @@ function sceltaColore(array){
 			<div class="box-icon d-flex justify-content-center align-items-sm-center">
 					<div class="container-content-box d-flex flex-column align-items-center">
 							<i class="${family} ${prefix}${name} fas-green "></i>
-							<h5>${name.toUpperCase()}</h5>
+							<h6>${name.toUpperCase()}</h6>
 					</div>  
 			</div>
 		
@@ -165,7 +165,7 @@ function sceltaColore(array){
 			<div class="box-icon d-flex justify-content-center align-items-sm-center">
 					<div class="container-content-box d-flex flex-column align-items-center">
 							<i class="${family} ${prefix}${name} fas-orange "></i>
-							<h5>${name.toUpperCase()}</h5>
+							<h6>${name.toUpperCase()}</h6>
 					</div>  
 			</div>
 		
@@ -196,8 +196,8 @@ const orangeIcon = icons.filter((colore)=>{
 	}
 })
 
-// let sceltaUtente = 'green';
-let sceltaUtente = prompt('Quale colore scelgi (blue, green, orange, all?');
+let sceltaUtente = 'green';
+// let sceltaUtente = prompt('Quale colore scelgi (blue, green, orange, all?');
 
 //ESEGUO LA FUNZIONE IN BASE AL COLORE SCELTO
 
