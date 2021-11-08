@@ -1,0 +1,25 @@
+body{
+background-color: #DDDDDD;
+}
+
+.top-header{
+  height: 100px;
+  background-color:slateblue;
+}
+
+.box-icon{
+  height: 10vw;
+  width: 15vw;
+  background-color:white;
+  margin: 30px 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* .container-content-box{
+  background-color: yellow;
+} */
+
+.container-content-box .fas{
+  font-size: 30px;
+}
