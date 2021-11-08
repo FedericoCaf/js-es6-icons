@@ -1,0 +1,35 @@
+body{
+  background-color: #DDDDDD;
+  }
+  
+  .top-header{
+    height: 100px;
+    background-color:slateblue;
+  }
+  
+  .box-icon{
+    height: 10vw;
+    width: calc(20% - 30px);
+    background-color:white;
+    margin: 30px 15px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .fas-blue{
+    color: blue;
+  }
+  .fas-green{
+    color: green;
+  }
+  .fas-orange{
+    color: orange;
+  }
+  
+  /* .container-content-box{
+    background-color: yellow;
+  } */
+  
+  .container-content-box .fas{
+    font-size: 30px;
+  }
